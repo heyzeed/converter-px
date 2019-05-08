@@ -1,0 +1,53 @@
+.navbar{
+	margin-left: 100px;  
+}
+.c-button.v--primary {
+    background-color: #611f69;
+    color: #fff;
+    fill: #fff;  padding:10px; 
+    }
+    div#footer {
+    color:white;background-color:white;margin-bottom:5px;
+}
+#header{
+	background-color: white; margin-left: 250px; margin-top:50px; font-size: 60px
+}
+.info{
+	border: 1px solid white; text-align: left; margin-left: 55%; margin-right: 12%;
+}
+.email1{
+	border: 1px solid black; text-align: left; margin-left: 55%; margin-right: 12%; height: 8%; width: 20%
+}
+.c-button1.v--primary{
+	background-color: #611f69;
+    color: rgb(248, 27, 27);
+    fill: #fff;   margin-left: -150px; padding: 15px; 
+}
+
+
+.form-control {
+    height: 50px;
+    width: px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.row-btn {
+  
+    display: flex !important;
+    flex-direction: row !important;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+#below{
+	border: 1px solid white; text-align: left; margin-left: 55%; margin-right: 12%;
+}
+#description{
+	border: 1px solid white; text-align: center; color: black; font-size: 20px; padding-top: 100px;
+} 
+div.cities {
+    background-color:white;
+    color:black;
+     border: 1px solid white; width: 300px; display: inline-grid; padding-top: 50px;
+ }

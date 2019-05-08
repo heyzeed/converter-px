@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>workongetstarted</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+        <link rel="stylesheet" type="text/css" href="getstartedstyle.css">
+
+        <!-- <script src="../Slack project/js/jquery-3.3.1.js"></script>    -->
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+                <div class="container justify-content-center">
+            <!-- Navbar brand -->
+                <a href="slack.html">
+                    <img src="logohubb.png" alt="slack icon" style="width:100px;height:60px;border:0;">
+                </a>    
+                </div>
+            </nav>
+      <!--/.Navbar-->
+        </header>
+        <main>
+            <!--Main container-->
+            <div class="container">
+            <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-2">
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-md-8">
+                        <h3>Start with a workspace</h3>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-2">
+                    </div>
+                    <!--Grid column-->
+                    <div class="col-md-8">
+                        In Slack, everything happens in a workspace. Like a virtual office building, a workspace is where your team can gather in Slack to communicate and get work done.
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <hr class="hr-dark"></hr>
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-2">
+                    <!--Grid column-->
+                    </div> 
+                    <div class="col-md-8">
+                        <!--Modal: Login / Register Form-->
+                        <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog cascading-modal" role="document">
+          <!--Content-->
+          <div class="modal-content">
+      
+            <!--Modal cascading tabs-->
+            <div class="modal-c-tabs">
+      
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
+                    Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>
+                    Register</a>
+                </li>
+              </ul>
+      
+              <!-- Tab panels -->
+              <div class="tab-content">
+                <!--Panel 7-->
+                <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+      
+                  <!--Body-->
+                  <div class="modal-body mb-1">
+                    <div class="md-form form-sm mb-5">
+                      <i class="fas fa-envelope prefix"></i>
+                      <input type="email" id="modalLRInput10" class="form-control form-control-sm validate">
+                      <label data-error="wrong" data-success="right" for="modalLRInput10">Your email</label>
+                    </div>
+      
+                    <div class="md-form form-sm mb-4">
+                      <i class="fas fa-lock prefix"></i>
+                      <input type="password" id="modalLRInput11" class="form-control form-control-sm validate">
+                      <label data-error="wrong" data-success="right" for="modalLRInput11">Your password</label>
+                    </div>
+                    <div class="text-center mt-2">
+                      <button class="btn btn-info">Log in <i class="fas fa-sign-in ml-1"></i></button>
+                    </div>
+                  </div>
+                  <!--Footer-->
+                  <div class="modal-footer">
+                    <div class="options text-center text-md-right mt-1">
+                      <p>Not a member? <a href="#" class="blue-text">Sign Up</a></p>
+                      <p>Forgot <a href="#" class="blue-text">Password?</a></p>
+                    </div>
+                    <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+                  </div>
+      
+                </div>
+                <!--/.Panel 7-->
+      
+                <!--Panel 8-->
+                <div class="tab-pane fade" id="panel8" role="tabpanel">
+      
+                  <!--Body-->
+                  <div class="modal-body">
+                    <div class="md-form form-sm mb-5">
+                      <i class="fas fa-envelope prefix"></i>
+                      <input type="email" id="modalLRInput12" class="form-control form-control-sm validate">
+                      <label data-error="wrong" data-success="right" for="modalLRInput12">Your email</label>
+                    </div>
+      
+                    <div class="md-form form-sm mb-5">
+                      <i class="fas fa-lock prefix"></i>
+                      <input type="password" id="modalLRInput13" class="form-control form-control-sm validate">
+                      <label data-error="wrong" data-success="right" for="modalLRInput13">Your password</label>
+                    </div>
+      
+                    <div class="md-form form-sm mb-4">
+                      <i class="fas fa-lock prefix"></i>
+                      <input type="password" id="modalLRInput14" class="form-control form-control-sm validate">
+                      <label data-error="wrong" data-success="right" for="modalLRInput14">Repeat password</label>
+                    </div>
+      
+                    <div class="text-center form-sm mt-2">
+                      <button class="btn btn-info">Sign up <i class="fas fa-sign-in ml-1"></i></button>
+                    </div>
+      
+                  </div>
+                  <!--Footer-->
+                  <div class="modal-footer">
+                    <div class="options text-right">
+                      <p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>
+                    </div>
+                    <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+                <!--/.Panel 8-->
+              </div>
+      
+            </div>
+          </div>
+          <!--/.Content-->
+        </div>
+      </div>
+      <!--Modal: Login / Register Form-->
+      
+      <div class="text-center">
+        <a href="#" class="btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalLRForm">Launch
+          Modal LogIn/Register</a>
+      </div> 
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <hr class="hr-dark"></hr>
+                <div class="row">
+                    <div class="col-md-2">
+                    <!--Grid column-->
+                    </div>
+                    <div class="col-md-8">
+                            <div class="text-center">
+                                    <a href="#modalLoginForm" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalLoginForm"><h4>Creat a new workspace</h4>Get your company or organisation on slack</a>
+                            </div>               
+                        <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header text-center">
+                                        <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body mx-3">
+                                        <div class="md-form mb-5">
+                                            <i class="fas fa-envelope prefix grey-text"></i>
+                                            <input type="email" id="defaultForm-email" class="form-control validate">
+                                            <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+                                        </div>
+                                        <div class="md-form mb-4">
+                                            <i class="fas fa-lock prefix grey-text"></i>
+                                            <input type="password" id="defaultForm-pass" class="form-control validate">
+                                            <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer d-flex justify-content-center">
+                                        <button class="btn btn-default">Login</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <hr class="hr-dark"></hr>
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <!--Grid column-->
+                    <div class="col-md-8">
+                        <img src="together3.jpg" alt="together" style="width:400px;height:200px;border:0;">        
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+            </div>
+    <!--Main container-->
+        </main>
+        <footer>
+
+        </footer>
+        <script src="../Slack project/js/bootstrap.js"></script>
+        <script src="../Slack project/js/bootstrap.min.js"></script>
+        <script src="../Slack project/js/jquery-3.4.0.min.js"></script>
+        <script src="../Slack project/js/popper.min.js"></script>
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+    </body>
+</html>

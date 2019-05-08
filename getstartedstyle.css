@@ -1,0 +1,17 @@
+body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+
+}
+.navbar{
+    background-color: white;
+    border-bottom-color: white;
+    border-bottom-style: inset;
+}
+.container{
+    background-color: white;
+    margin-top: 10px;
+    width: 45%;
+    border-radius: 10px;
+}
